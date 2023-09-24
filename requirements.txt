@@ -24,4 +24,4 @@ yt-dlp
 youtube-search
 youtube-search-python
 lyricsgenius
-nodejs=15.0.0
+nodejs==15.0.0
