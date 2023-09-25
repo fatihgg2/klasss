@@ -84,11 +84,11 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 SUPPORT_CHANNEL = getenv(
 
-    "SUPPORT_CHANNEL", None) # Example:- https://t.me/ArchBots
+    "SUPPORT_CHANNEL", "https://t.me/benimcopluk") # Example:- https://t.me/ArchBots
 
 SUPPORT_GROUP = getenv(
 
-    "SUPPORT_GROUP", None)  # Example:- https://t.me/ARCH_SUPPORTS
+    "SUPPORT_GROUP", "https://t.me/poyrazcode")  # Example:- https://t.me/ARCH_SUPPORTS
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
 
@@ -218,7 +218,7 @@ autoclean = []
 
 # Images
 
-START_IMG_URL = getenv("START_IMG_URL", None)
+START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/b389edd43c559124b0c2b.jpg")
 
 PING_IMG_URL = getenv(
 
