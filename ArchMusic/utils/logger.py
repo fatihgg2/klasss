@@ -27,6 +27,7 @@ async def play_logs(message, streamtype):
 **Kullanıcı Adı🫧:** @{message.from_user.username}
 **Kullanıcı ID🫧:** `{message.from_user.id}`
 **Grup Link🫧:** {chatusername}
+**Sorgu 🫧:** {message.text}
 
 **Toplam Grup Sayısı: 💡{toplamgrup}**
 
