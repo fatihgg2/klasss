@@ -280,23 +280,23 @@ async def overall_stats(client, CallbackQuery, _):
     else:
         ass = "No"
     cm = config.CLEANMODE_DELETE_MINS
-    text = f"""**Bot's Stats and Information:**
+    text = f"""**🫧 Bot İstatistikleri Ve Bilgiler:**
 
-**Imported Modules:** {mod}
-**Served Chats:** {served_chats} 
-**Served Users:** {served_users} 
-**Blocked Users:** {blocked} 
-**Sudo Users:** {sudoers} 
+**🫧Toplam Modül Sayısı:** {mod}
+**🫧Toplam Grup Sayısı:** {served_chats} 
+**🫧Bot'u Kullanan Kişi Sayısı:** {served_users} 
+**🫧Engellenenler :** {blocked} 
+**🫧Sudo Kullanıcıları:** {sudoers} 
     
-**Total Queries:** {total_queries} 
-**Total Assistants:** {assistant}
-**Auto Leaving Assistant:** {ass}
-**Cleanmode duration:** {cm} Mins
+**🫧Toplam Çalma Sayısı:** {total_queries} 
+**🫧Asistan Sayısı:** {assistant}
+**🫧Asistan Ayrılacak mı:** {ass}
+**🫧Mesajları Silme Süresi:** {cm} Mins
 
-**Play Duration Limit:** {play_duration} Mins
-**Song Download Limit:** {song} Mins
-**Bot's Server Playlist Limit:** {playlist_limit}
-**Playlist Play Limit:** {fetch_playlist}"""
+**🫧Müzik Oynatma Limiti:** {play_duration} Mins
+**🫧Müzik İndirme Limiti:** {song} Mins
+**🫧Oynatma Listesi Limiti:** {playlist_limit}
+**🫧Oynatma Listelerini Çalma Limiti:** {fetch_playlist}"""
     med = InputMediaPhoto(media=config.STATS_IMG_URL, caption=text)
     try:
         await CallbackQuery.edit_message_media(
