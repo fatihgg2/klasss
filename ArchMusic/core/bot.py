@@ -10,7 +10,7 @@ from ..logging import LOGGER
 
 class ArchMusic(Client):
     def __init__(self):
-        LOGGER(__name__).info(f"Bot Başladı . . . 🎉")
+        LOGGER(__name__).info(f"Bot Başladı . . . 🫧🎉")
         super().__init__(
             "ArchMusic",
             api_id=config.API_ID,
@@ -26,7 +26,7 @@ class ArchMusic(Client):
             self.id = get_me.id
 
             video_url = "https://graph.org/file/45814539c4add01c19031.mp4"
-            caption = "Bot Started"
+            caption = "Bot Başladı . . . 🫧🎉"
             
             try:
                 await self.send_video(
