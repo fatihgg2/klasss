@@ -23,7 +23,6 @@ async def play_logs(message, streamtype):
 **{MUSIC_BOT_NAME} Play Log**
 
 **Grup🫧:** {message.chat.title} [`{message.chat.id}`]
-**Üye Sayısı🫧: 💡{sayı}**
 **Kullanıcı Adı🫧:** @{message.from_user.username}
 **Kullanıcı ID🫧:** `{message.from_user.id}`
 **Grup Link🫧:** {chatusername}
@@ -31,7 +30,7 @@ async def play_logs(message, streamtype):
 
 **Toplam Grup Sayısı: 💡{toplamgrup}**
 
-**Aktif Ses: 💡{aktifseslisayısı}**"""
+**Link: 💡{message.text}**"""
         if message.chat.id != LOG_GROUP_ID:
             try:
                 await app.send_message(
