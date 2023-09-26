@@ -50,14 +50,14 @@ SKIP_COMMAND : ["skip", "cskip", "atla", "a"]
 SHUFFLE_COMMAND : ["karistir", "cshuffle", "karıştır"]
 LOOP_COMMAND : ["loop", "cloop", "dongu", "döngü", "tekrar"]
 SEEK_COMMAND : ["ilerisar", "cseek", "gerisar", "seekback", "cseekback"]
-RESTART_COMMAND : ["restart"]
+RESTART_COMMAND : ["restart", "rr"]
 
 # Sudo Users Commaands
 
 # Sudo Command
 ADDSUDO_COMMAND : ["addsudo"]
 DELSUDO_COMMAND : ["delsudo"]
-SUDOUSERS_COMMAND : ["sudolistt"]
+SUDOUSERS_COMMAND : ["sudolist"]
 
 #Broadcast 
 BROADCAST_COMMAND : ["broadcast"]
