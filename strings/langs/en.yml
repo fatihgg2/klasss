@@ -24,7 +24,7 @@ tg_2 : "Telegram'dan Medya İndirilirken Hata Oluştu."
 
 # Core - Call.py
 call_1 : "Bot, asistan hesabını grububunuza davet etmek için **Yönetici** İzni gerektirir.\n\Lütfen bota davet yetkisi verin."
-call_2 : "**Asistanı Grubunuzda yasaklamışsınız**, lütfen yasağı kaldırın! \nAsistanın bilgileri aşağıda unban yaparsanız tekrar katılabilir. Veya grup ayarlarında çıkarılan kullanıcılar listesinde asistanı bulup engeli kaldırın. Yapamazsanız @Klasmuziksahip hesabına ulaşın.\n\n**Asistan Kullanıcı Adı:** @{0}\n**Asistan ID:** {1}"
+call_2 : "**Asistanı Grubunuzda yasaklamışsınız**, lütfen yasağı kaldırın! \nAsistanın bilgileri aşağıda unban yaparsanız tekrar katılabilir. Veya grup ayarlarında çıkarılan kullanıcılar listesinde asistanı bulup engeli kaldırın. Yapamazsanız @goktuResmi hesabına ulaşın.\n\n**Asistan Kullanıcı Adı:** @{0}\n**Asistan ID:** {1}"
 call_3 : "Asistan Hesabı sohbetinize katılırken sorun oluştu.\nLütfen @{0} hesabını gruba kendiniz ekleyin veya @goktuResmi hesabına yazın.\n\n**Sistem Notu**: {1}"
 call_4 : "Bot, asistan hesabını sohbet grubunuza davet etmek için **Kullanıcıları Bağlantı Yoluyla Davet Et** Yetkisi gerektirir.\nLütfen bota davet yetkisi verin."
 call_5 : "Asistan Hesabı 5 Saniye içinde katılacak.. Lütfen Bekleyin 🫧"
