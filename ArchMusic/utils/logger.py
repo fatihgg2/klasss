@@ -5,7 +5,7 @@
 # and is released under the "GNU v3.0 License Agreement".
 # Please see < https://github.com/ArchBots/ArchMusic/blob/master/LICENSE >
 #
-# All rights reserved.
+# All rights reserved. Edit By @goktuResmi
 #
 
 from config import LOG, LOG_GROUP_ID, MUSIC_BOT_NAME
