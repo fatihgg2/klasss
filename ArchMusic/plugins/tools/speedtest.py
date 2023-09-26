@@ -23,13 +23,13 @@ def testspeed(m):
     try:
         test = speedtest.Speedtest()
         test.get_best_server()
-        m = m.edit("Running Download SpeedTest")
+        m = m.edit("İndirme Hız Testini Çalıştırma")
         test.download()
-        m = m.edit("Running Upload SpeedTest")
+        m = m.edit("Yükleme SpeedTest'i Çalıştırma")
         test.upload()
         test.results.share()
         result = test.results.dict()
-        m = m.edit("Sharing SpeedTest Results")
+        m = m.edit("SpeedTest Sonuçlarını Paylaşma")
     except Exception as e:
         return m.edit(e)
     return result
