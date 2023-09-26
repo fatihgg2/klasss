@@ -56,7 +56,7 @@ async def start_comm(client, message: Message, _):
             return await message.reply_text(_["song_2"])
         if name[0:3] == "sta":
             m = await message.reply_text(
-                "🔎 Fetching your personal stats.!"
+                "🔎 Kişisel istatistikleriniz getiriliyor.!"
             )
             stats = await get_userss(message.from_user.id)
             tot = len(stats)
@@ -116,7 +116,7 @@ async def start_comm(client, message: Message, _):
                 sender_name = message.from_user.first_name
                 return await app.send_message(
                     config.LOG_GROUP_ID,
-                    f"{message.from_user.mention} has just started bot to check <code>SUDOLIST</code>\n\n**USER ID:** {sender_id}\n**USER NAME:** {sender_name}",
+                    f"{message.from_user.mention} kontrol etmek için botu yeni başlattım <code>SUDOLIST</code>\n\n**Kullanıcı ID:** {sender_id}\n**Kullanıcı İsmi:** {sender_name}",
                 )
             return
         if name[0:3] == "lyr":
@@ -132,7 +132,7 @@ async def start_comm(client, message: Message, _):
         if name[0:3] == "del":
             await del_plist_msg(client=client, message=message, _=_)
         if name[0:3] == "inf":
-            m = await message.reply_text("🔎 Fetching Info!")
+            m = await message.reply_text("🔎 Bilgi Alınıyor!")
             query = (str(name)).replace("info_", "", 1)
             query = f"https://www.youtube.com/watch?v={query}"
             results = VideosSearch(query, limit=1)
@@ -148,26 +148,26 @@ async def start_comm(client, message: Message, _):
                 link = result["link"]
                 published = result["publishedTime"]
             searched_text = f"""
-🔍__**Video Track Information**__
+🔍__**Video Parça Bilgisi**__
 
-❇️**Title:** {title}
+❇️**Başlık:** {title}
 
-⏳**Duration:** {duration} Mins
-👀**Views:** `{views}`
-⏰**Published Time:** {published}
-🎥**Channel Name:** {channel}
-📎**Channel Link:** [Visit From Here]({channellink})
-🔗**Video Link:** [Link]({link})
+⏳**Süre:** {duration} Mins
+👀**Görüntüleme:** `{views}`
+⏰**Yayınlanma Zamanı:** {published}
+🎥**Kanal ismi:** {channel}
+📎**Kanal Link:** [Visit From Here]({channellink})
+🔗**Video bağlantısı:** [Link]({link})
 
 ⚡️ __Searched Powered By {config.MUSIC_BOT_NAME}__"""
             key = InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton(
-                            text="🎥 Watch ", url=f"{link}"
+                            text="🎥 İzle ", url=f"{link}"
                         ),
                         InlineKeyboardButton(
-                            text="🔄 Close", callback_data="close"
+                            text="🔄 Kapat", callback_data="close"
                         ),
                     ],
                 ]
@@ -185,7 +185,7 @@ async def start_comm(client, message: Message, _):
                 sender_name = message.from_user.first_name
                 return await app.send_message(
                     config.LOG_GROUP_ID,
-                    f"{message.from_user.mention} has just started bot to check <code>VIDEO INFORMATION</code>\n\n**USER ID:** {sender_id}\n**USER NAME:** {sender_name}",
+                    f"{message.from_user.mention} Bota Start Verdi <code>VIDEO INFORMATION</code>\n\n**Kullanıcı ID:** {sender_id}\n**Kullanıcı İsmi:** {sender_name}",
                 )
     else:
         try:
@@ -232,7 +232,7 @@ async def welcome(client, message: Message):
     if config.PRIVATE_BOT_MODE == str(True):
         if not await is_served_private_chat(message.chat.id):
             await message.reply_text(
-                "**Private Music Bot**\n\nOnly for authorized chats from the owner. Ask my owner to allow your chat first."
+                "**Özel Müzik Botu**\n\nYalnızca sahibin yetkili sohbetleri için. Önce sahibimden sohbetinize izin vermesini isteyin."
             )
             return await app.leave_chat(message.chat.id)
     else:
@@ -256,7 +256,7 @@ async def welcome(client, message: Message):
                 userbot = await get_assistant(message.chat.id)
                 out = start_pannel(_)
 
-                video_url = "https://telegra.ph/file/acfb445238b05315f0013.mp4"  # Replace with the actual URL of the video
+                video_url = "https://graph.org/file/45814539c4add01c19031.mp4"  # Replace with the actual URL of the video
                 video_caption = _["start_3"].format(config.MUSIC_BOT_NAME, userbot.username, userbot.id)
 
                 await app.send_video(
