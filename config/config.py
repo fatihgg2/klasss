@@ -84,7 +84,7 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 SUPPORT_CHANNEL = getenv(
 
-    "SUPPORT_CHANNEL", "https://t.me/LuqiaDuyuru") # Example:- https://t.me/ArchBots
+    "SUPPORT_CHANNEL", "https://t.me/KlasChannel") # Example:- https://t.me/ArchBots
 
 SUPPORT_GROUP = getenv(
 
@@ -218,7 +218,7 @@ autoclean = []
 
 # Images
 
-START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/b389edd43c559124b0c2b.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/2a2bff18d7988d96d3172.jpg")
 
 PING_IMG_URL = getenv(
 
@@ -232,7 +232,7 @@ PLAYLIST_IMG_URL = getenv(
 
     "PLAYLIST_IMG_URL",
 
-    "https://graph.org/file/e0f5fe7ff6172bd632af0.jpg",
+    "https://graph.org/file/2a2bff18d7988d96d3172.jpg",
 
 )
 
@@ -240,7 +240,7 @@ GLOBAL_IMG_URL = getenv(
 
     "GLOBAL_IMG_URL",
 
-    "https://graph.org/file/e0f5fe7ff6172bd632af0.jpg",
+    "https://graph.org/file/2a2bff18d7988d96d3172.jpg",
 
 )
 
@@ -248,7 +248,7 @@ STATS_IMG_URL = getenv(
 
     "STATS_IMG_URL",
 
-    "https://graph.org/file/46caae8b1308485b049c4.jpg",
+    "https://graph.org/file/2a2bff18d7988d96d3172.jpg",
 
 )
 
@@ -256,7 +256,7 @@ TELEGRAM_AUDIO_URL = getenv(
 
     "TELEGRAM_AUDIO_URL",
 
-    "https://graph.org/file/e0f5fe7ff6172bd632af0.jpg",
+    "https://graph.org/file/2a2bff18d7988d96d3172.jpg",
 
 )
 
@@ -264,7 +264,7 @@ TELEGRAM_VIDEO_URL = getenv(
 
     "TELEGRAM_VIDEO_URL",
 
-    "https://graph.org/file/e0f5fe7ff6172bd632af0.jpg",
+    "https://graph.org/file/2a2bff18d7988d96d3172.jpg",
 
 )
 
@@ -272,7 +272,7 @@ STREAM_IMG_URL = getenv(
 
     "STREAM_IMG_URL",
 
-    "https://graph.org/file/e0f5fe7ff6172bd632af0.jpg",
+    "https://graph.org/file/2a2bff18d7988d96d3172.jpg",
 
 )
 
@@ -280,7 +280,7 @@ SOUNCLOUD_IMG_URL = getenv(
 
     "SOUNCLOUD_IMG_URL",
 
-    "https://graph.org/file/e0f5fe7ff6172bd632af0.jpg",
+    "https://graph.org/file/2a2bff18d7988d96d3172.jpg",
 
 )
 
@@ -288,7 +288,7 @@ YOUTUBE_IMG_URL = getenv(
 
     "YOUTUBE_IMG_URL",
 
-    "https://graph.org/file/e0f5fe7ff6172bd632af0.jpg",
+    "https://graph.org/file/2a2bff18d7988d96d3172.jpg",
 
 )
 
@@ -296,7 +296,7 @@ SPOTIFY_ARTIST_IMG_URL = getenv(
 
     "SPOTIFY_ARTIST_IMG_URL",
 
-    "https://graph.org/file/e0f5fe7ff6172bd632af0.jpg",
+    "https://graph.org/file/2a2bff18d7988d96d3172.jpg",
 
 )
 
@@ -304,7 +304,7 @@ SPOTIFY_ALBUM_IMG_URL = getenv(
 
     "SPOTIFY_ALBUM_IMG_URL",
 
-    "https://graph.org/file/e0f5fe7ff6172bd632af0.jpg",
+    "https://graph.org/file/2a2bff18d7988d96d3172.jpg",
 
 )
 
@@ -312,7 +312,7 @@ SPOTIFY_PLAYLIST_IMG_URL = getenv(
 
     "SPOTIFY_PLAYLIST_IMG_URL",
 
-    "https://graph.org/file/e0f5fe7ff6172bd632af0.jpg",
+    "https://graph.org/file/2a2bff18d7988d96d3172.jpg",
 
 )
 
