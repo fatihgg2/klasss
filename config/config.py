@@ -256,7 +256,7 @@ TELEGRAM_AUDIO_URL = getenv(
 
     "TELEGRAM_AUDIO_URL",
 
-    "https://graph.org/file/2a2bff18d7988d96d3172.jpg",
+    "https://graph.org/file/149c6e13f7b7e9d2b5cfe.jpg",
 
 )
 
@@ -264,7 +264,7 @@ TELEGRAM_VIDEO_URL = getenv(
 
     "TELEGRAM_VIDEO_URL",
 
-    "https://graph.org/file/2a2bff18d7988d96d3172.jpg",
+    "https://graph.org/file/149c6e13f7b7e9d2b5cfe.jpg",
 
 )
 
@@ -272,7 +272,7 @@ STREAM_IMG_URL = getenv(
 
     "STREAM_IMG_URL",
 
-    "https://graph.org/file/2a2bff18d7988d96d3172.jpg",
+    "https://graph.org/file/149c6e13f7b7e9d2b5cfe.jpg",
 
 )
 
@@ -280,7 +280,7 @@ SOUNCLOUD_IMG_URL = getenv(
 
     "SOUNCLOUD_IMG_URL",
 
-    "https://graph.org/file/2a2bff18d7988d96d3172.jpg",
+    "https://graph.org/file/149c6e13f7b7e9d2b5cfe.jpg",
 
 )
 
@@ -288,7 +288,7 @@ YOUTUBE_IMG_URL = getenv(
 
     "YOUTUBE_IMG_URL",
 
-    "https://graph.org/file/2a2bff18d7988d96d3172.jpg",
+    "https://graph.org/file/149c6e13f7b7e9d2b5cfe.jpg",
 
 )
 
@@ -296,7 +296,7 @@ SPOTIFY_ARTIST_IMG_URL = getenv(
 
     "SPOTIFY_ARTIST_IMG_URL",
 
-    "https://graph.org/file/2a2bff18d7988d96d3172.jpg",
+    "https://graph.org/file/149c6e13f7b7e9d2b5cfe.jpg",
 
 )
 
@@ -304,7 +304,7 @@ SPOTIFY_ALBUM_IMG_URL = getenv(
 
     "SPOTIFY_ALBUM_IMG_URL",
 
-    "https://graph.org/file/2a2bff18d7988d96d3172.jpg",
+    "https://graph.org/file/149c6e13f7b7e9d2b5cfe.jpg",
 
 )
 
@@ -312,7 +312,7 @@ SPOTIFY_PLAYLIST_IMG_URL = getenv(
 
     "SPOTIFY_PLAYLIST_IMG_URL",
 
-    "https://graph.org/file/2a2bff18d7988d96d3172.jpg",
+    "https://graph.org/file/149c6e13f7b7e9d2b5cfe.jpg",
 
 )
 
