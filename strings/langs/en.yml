@@ -234,15 +234,15 @@ song_11 : "**Yükleme Başladı\n\nYükleme hızı yavaş olabilir. Lütfen bekl
 queue_1 : "**Lütfen Bekleyin.. Sıra Alınıyor...** 💫"
 queue_2 : "Sırada Malesef Hiçbir Şey Yok. 💫"
 queue_3 : "<u>**Sıradaki Parçalar:</u>**  [Sıradaki Parçalara Burdan Bakabilirsiniz]({0})"
-queue_4 : "⏳ Sıraya eklendi **#{0}\n\n❤️‍🩹Başlık:** {1}\n**⏱Süre:** {2}\n💫**Talep Eden: {3}**"
+queue_4 : "⏳ Sıraya eklendi **#{0}\n\n💫 Başlık:** {1}\n**⏱Süre:** {2}\n❤️‍🩹**Talep Eden: {3}**"
 queue_5 : "Sırada Sadece Bir Parça Var, Lütfen Biraz Daha Parça Ekleyin. 💫"
 
 # All Streaming Lines
-stream_1 : "🎧 **İstenilen Parça Başladı**\n\n⭐ **Talep Eden:** {0}\n✨ **Bilgi: **[Buradan]({1})"
-stream_2 : "🎧 **URL ile Yayına Başlandı **\n\n⭐ **Talep Eden: {0}**"
-stream_3 : "**🎧 Başlık:** {0}\n⌛️**Süre**: {1}\n⭐ **Talep Eden: {2}**"
-stream_4 : "**🎧 Başlık:** [{0}]({1})\n⌛️**Süre**: {2}\n⭐**Talep Eden: {3}**"
-stream_5 : "**🎧 Başlık:** {0}\n⭐ **Talep Eden: {1}**"
+stream_1 : "💫 **İstenilen Parça Başladı**\n\n❤️‍🩹 **Talep Eden:** {0}\n✨ **Bilgi: **[Buradan]({1})"
+stream_2 : "💫 **URL ile Yayına Başlandı **\n\n❤️‍🩹 **Talep Eden: {0}**"
+stream_3 : "**💫 Başlık:** {0}\n⌛️**Süre**: {1}\n❤️‍🩹 **Talep Eden: {2}**"
+stream_4 : "**💫 Başlık:** [{0}]({1})\n⌛️**Süre**: {2}\n❤️‍🩹**Talep Eden: {3}**"
+stream_5 : "**💫 Başlık:** {0}\n❤️‍🩹 **Talep Eden: {1}**"
 
 # Inline Buttons
 
@@ -285,7 +285,7 @@ P_B_3 : "🏮 Canlı Yayını Oynat"
 P_B_4 : "🎵 Oynatma Listelerimi Oynat"
 
 #Playlist
-PL_B_1 : "🫧 Oynatma listelerimi oynat"
+PL_B_1 : "❤️‍🩹 Oynatma listelerimi oynat"
 PL_B_2 : "✅ Listeme Ekle"
 PL_B_3 : "⚙️ Kontrol Paneli"
 PL_B_4 : "📡 Oynatma Modu"
@@ -327,7 +327,7 @@ ST_B_26 : "🗑 Komutları Sil"
 ST_B_27 : "🧑‍🚀 Tavsiye Modu"
 
 #Song
-SG_B_1 : "↗️ Özel Sohbette Aç"
+SG_B_1 : "↗️ Fm Kanalımız"
 SG_B_2 : "🔊 Müzik"
 SG_B_3 : "🎥 Video"
 
