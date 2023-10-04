@@ -218,7 +218,7 @@ ping_1 : "🌀Pong!.!.!.!"
 ping_2 : "** {0} 🌀\nGecikme: `{1}` ms\nUpTime: {2}\nDepolama: {3}\nCpu: {4}\nRam: {5}\nPython: `{6}` ms 🔥**"
 
 # Song
-song_1 : "YouTube'dan Müzik veya Video'yu yalnızca özel sohbette indirebilirsiniz. Lütfen beni özel sohbette başlat. 💫"
+song_1 : "@KlasDowlandsBot İndirme İçin Bu Botumuzu Kullanabilirsiniz. @KlasMuzikFm. 💫"
 song_2 : "**Kullanım:**\n/indir [Şarkı Adı] veya [Youtube Link]\n\n(**Örnek:** /indir Neşet Ertaş Gönül Dağı)"
 song_3 : "Canlı Bağlantı Algılandı. Canlı youtube videolarını indiremiyorum. 💫"
 song_4 : "**💫 Başlık: {0}**\n\n**İndirmek istediğiniz türü seçin.**"
@@ -234,7 +234,7 @@ song_11 : "**Yükleme Başladı\n\nYükleme hızı yavaş olabilir. Lütfen bekl
 queue_1 : "**Lütfen Bekleyin.. Sıra Alınıyor...** 💫"
 queue_2 : "Sırada Malesef Hiçbir Şey Yok. 💫"
 queue_3 : "<u>**Sıradaki Parçalar:</u>**  [Sıradaki Parçalara Burdan Bakabilirsiniz]({0})"
-queue_4 : "⏳ Sıraya eklendi **#{0}\n\n💫Başlık:** {1}\n**⏱Süre:** {2}\n💫**Talep Eden: {3}**"
+queue_4 : "⏳ Sıraya eklendi **#{0}\n\n❤️‍🩹Başlık:** {1}\n**⏱Süre:** {2}\n💫**Talep Eden: {3}**"
 queue_5 : "Sırada Sadece Bir Parça Var, Lütfen Biraz Daha Parça Ekleyin. 💫"
 
 # All Streaming Lines
