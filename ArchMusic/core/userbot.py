@@ -133,7 +133,7 @@ class Userbot(Client):
             assistants.append(3)
             try:
                 await self.three.send_message(
-                    config.LOG_GROUP_ID, "Assistant Started"
+                    config.LOG_GROUP_ID, "Asistan ³ Başladı. . . 🎉"
                 )
             except:
                 LOGGER(__name__).error(
@@ -164,7 +164,7 @@ class Userbot(Client):
             assistants.append(4)
             try:
                 await self.four.send_message(
-                    config.LOG_GROUP_ID, "Assistant Started"
+                    config.LOG_GROUP_ID, "Asistan ⁴ Başladı. . . 🎉"
                 )
             except:
                 LOGGER(__name__).error(
@@ -195,7 +195,7 @@ class Userbot(Client):
             assistants.append(5)
             try:
                 await self.five.send_message(
-                    config.LOG_GROUP_ID, "Assistant Started"
+                    config.LOG_GROUP_ID, "Asistan ⁵ Başladı. . . 🎉"
                 )
             except:
                 LOGGER(__name__).error(
