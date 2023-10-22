@@ -310,7 +310,7 @@ class Call(PyTgCalls):
             )
         except TelegramServerError:
             raise AssistantErr(
-                "**Telegram Sunucu Hatası**\n\nTTelegram'da bazı dahili sunucu sorunları yaşanıyor, lütfen tekrar oynamayı deneyin.\n\n Eğer problem devam ediyorsa @goktuResmi bildirin ."
+                "**Telegram Sunucu Hatası**\n\nTelegram'da bazı dahili sunucu sorunları yaşanıyor, lütfen tekrar oynamayı deneyin.\n\n Eğer problem devam ediyorsa @Buraninkrali bildirin ."
             )
         await add_active_chat(chat_id)
         await mute_off(chat_id)
